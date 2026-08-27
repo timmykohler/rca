@@ -1,0 +1,11 @@
+# Host node_modules would clobber the ones installed inside the image and can
+# carry platform-specific binaries that break the build. Never copy them in.
+**/node_modules
+**/dist
+**/__pycache__
+**/*.pyc
+**/venv
+**/.venv
+.git
+.env
+*.zip

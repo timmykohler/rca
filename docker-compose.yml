@@ -1,0 +1,26 @@
+# Local development / single-machine deployment.
+#
+#   1. Put your FRED key in a .env file next to this one:
+#        FRED_API_KEY=your_key_here
+#   2. docker compose up --build
+#   3. Open http://localhost:8000
+#
+services:
+  rca-tool:
+    build: .
+    container_name: rca
+    ports:
+      - "8000:8000"
+    environment:
+      # Read from .env — falls back to empty, which uses the embedded curve.
+      FRED_API_KEY: ${FRED_API_KEY:-}
+      FRED_REFRESH_HOURS: ${FRED_REFRESH_HOURS:-12}
+      FRED_CACHE_PATH: /cache/yield_cache.json
+    volumes:
+      # Persists the last good FRED curve across container restarts so a
+      # restart doesn't have to re-hit FRED before it can calculate.
+      - yield-cache:/cache
+    restart: unless-stopped
+
+volumes:
+  yield-cache:

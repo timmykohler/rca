@@ -1,0 +1,136 @@
+{
+  "description": "Transition Phase \u2014 Couple \u2014 Underfunded",
+  "investor_name": "Frank Martinez",
+  "investor_dob": "01/01/1964",
+  "investor_age": 62,
+  "investor_gender": "male",
+  "has_co_investor": true,
+  "co_investor_name": "Linda Martinez",
+  "co_investor_dob": "01/01/1967",
+  "co_investor_age": 59,
+  "co_investor_gender": "female",
+  "effective_income_tax_rate": 0.22,
+  "long_term_gains_rate": 0.15,
+  "portfolio_assets": [
+    {
+      "label": "Frank 401(k)",
+      "account_type": "401k",
+      "present_value": 310000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Linda 401(k)",
+      "account_type": "401k",
+      "present_value": 180000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Joint savings",
+      "account_type": "taxable",
+      "present_value": 42000,
+      "cost_basis": 42000
+    }
+  ],
+  "spending_goals": [
+    {
+      "label": "Core living expenses",
+      "grouping": "essential",
+      "annual_amount": 82000,
+      "annual_adjustment": 0.024,
+      "start_age": 65,
+      "end_age": 90
+    },
+    {
+      "label": "Survivor expenses",
+      "grouping": "essential",
+      "annual_amount": 56000,
+      "annual_adjustment": 0.024,
+      "start_age": 90,
+      "end_age": 96
+    },
+    {
+      "label": "Healthcare \u2014 pre-Medicare",
+      "grouping": "healthcare",
+      "annual_amount": 28000,
+      "annual_adjustment": 0.035,
+      "start_age": 63,
+      "end_age": 65
+    },
+    {
+      "label": "Healthcare \u2014 Medicare",
+      "grouping": "healthcare",
+      "annual_amount": 20000,
+      "annual_adjustment": 0.035,
+      "start_age": 65,
+      "end_age": 93
+    },
+    {
+      "label": "Travel",
+      "grouping": "discretionary",
+      "annual_amount": 10000,
+      "annual_adjustment": 0.0,
+      "start_age": 65,
+      "end_age": 78
+    }
+  ],
+  "social_security": [
+    {
+      "label": "Social Security \u2014 Frank",
+      "owner": "investor",
+      "annual_amount": 26000,
+      "annual_adjustment": 0.023,
+      "start_age": 67
+    },
+    {
+      "label": "Social Security \u2014 Linda",
+      "owner": "co-investor",
+      "annual_amount": 18000,
+      "annual_adjustment": 0.023,
+      "start_age": 67
+    }
+  ],
+  "retirement_income": [],
+  "future_savings": [
+    {
+      "label": "Frank 401(k) catch-up",
+      "savings_type": "pre-tax",
+      "owner": "investor",
+      "annual_contribution": 30500,
+      "annual_adjustment": 0.0,
+      "start_age": 62,
+      "end_age": 65
+    },
+    {
+      "label": "Linda 401(k) catch-up",
+      "savings_type": "pre-tax",
+      "owner": "co-investor",
+      "annual_contribution": 30500,
+      "annual_adjustment": 0.0,
+      "start_age": 59,
+      "end_age": 63
+    }
+  ],
+  "private_assets": [
+    {
+      "label": "Primary residence",
+      "asset_type": "home",
+      "value": 480000,
+      "cost_basis": 200000,
+      "debt_owed": 165000,
+      "tax_rate": 0.15
+    }
+  ],
+  "liabilities": [
+    {
+      "label": "Primary mortgage",
+      "liability_type": "mortgage_first",
+      "balance": 165000,
+      "monthly_payment": 1380,
+      "interest_rate": 0.052
+    }
+  ],
+  "future_assets": [],
+  "annuities": [],
+  "pensions": [],
+  "other_income": []
+}

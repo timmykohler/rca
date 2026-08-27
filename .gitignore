@@ -1,0 +1,31 @@
+# Dependencies
+node_modules/
+venv/
+.venv/
+
+# Build output
+frontend/dist/
+build/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Secrets — never commit the FRED key
+.env
+.env.local
+*.env
+!.env.example
+!frontend/.env.production
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Runtime
+*.log
+yield_cache.json

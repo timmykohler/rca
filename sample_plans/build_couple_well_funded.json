@@ -1,0 +1,157 @@
+{
+  "description": "Build Phase \u2014 Couple \u2014 Well Funded",
+  "investor_name": "Michael Chen",
+  "investor_dob": "01/01/1981",
+  "investor_age": 45,
+  "investor_gender": "male",
+  "has_co_investor": true,
+  "co_investor_name": "Sarah Chen",
+  "co_investor_dob": "01/01/1983",
+  "co_investor_age": 43,
+  "co_investor_gender": "female",
+  "effective_income_tax_rate": 0.32,
+  "long_term_gains_rate": 0.15,
+  "portfolio_assets": [
+    {
+      "label": "Michael 401(k)",
+      "account_type": "401k",
+      "present_value": 812000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Sarah 401(k)",
+      "account_type": "401k",
+      "present_value": 574000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Joint brokerage",
+      "account_type": "taxable",
+      "present_value": 308000,
+      "cost_basis": 169000
+    },
+    {
+      "label": "Michael Roth IRA",
+      "account_type": "roth_ira",
+      "present_value": 118999,
+      "cost_basis": 67600
+    },
+    {
+      "label": "Sarah Roth IRA",
+      "account_type": "roth_ira",
+      "present_value": 100800,
+      "cost_basis": 58500
+    }
+  ],
+  "spending_goals": [
+    {
+      "label": "Core living expenses",
+      "grouping": "essential",
+      "annual_amount": 93500,
+      "annual_adjustment": 0.024,
+      "start_age": 65,
+      "end_age": 92
+    },
+    {
+      "label": "Survivor expenses",
+      "grouping": "essential",
+      "annual_amount": 63750,
+      "annual_adjustment": 0.024,
+      "start_age": 92,
+      "end_age": 98
+    },
+    {
+      "label": "Healthcare",
+      "grouping": "healthcare",
+      "annual_amount": 22000,
+      "annual_adjustment": 0.035,
+      "start_age": 65,
+      "end_age": 95
+    },
+    {
+      "label": "Travel & leisure",
+      "grouping": "discretionary",
+      "annual_amount": 20000,
+      "annual_adjustment": 0.0,
+      "start_age": 65,
+      "end_age": 82
+    },
+    {
+      "label": "Home improvement",
+      "grouping": "housing",
+      "annual_amount": 40000,
+      "annual_adjustment": 0.0,
+      "start_age": 48,
+      "end_age": 48
+    }
+  ],
+  "social_security": [
+    {
+      "label": "Social Security \u2014 Michael",
+      "owner": "investor",
+      "annual_amount": 38000,
+      "annual_adjustment": 0.023,
+      "start_age": 67
+    },
+    {
+      "label": "Social Security \u2014 Sarah",
+      "owner": "co-investor",
+      "annual_amount": 32000,
+      "annual_adjustment": 0.023,
+      "start_age": 67
+    }
+  ],
+  "retirement_income": [],
+  "future_savings": [
+    {
+      "label": "Michael 401(k)",
+      "savings_type": "pre-tax",
+      "owner": "investor",
+      "annual_contribution": 23000,
+      "annual_adjustment": 0.0,
+      "start_age": 45,
+      "end_age": 65
+    },
+    {
+      "label": "Sarah 401(k)",
+      "savings_type": "pre-tax",
+      "owner": "co-investor",
+      "annual_contribution": 23000,
+      "annual_adjustment": 0.0,
+      "start_age": 43,
+      "end_age": 63
+    },
+    {
+      "label": "Joint brokerage",
+      "savings_type": "taxable",
+      "owner": "investor",
+      "annual_contribution": 24000,
+      "annual_adjustment": 0.0,
+      "start_age": 45,
+      "end_age": 65
+    }
+  ],
+  "private_assets": [
+    {
+      "label": "Primary residence",
+      "asset_type": "home",
+      "value": 1100000,
+      "cost_basis": 420000,
+      "debt_owed": 480000,
+      "tax_rate": 0.15
+    }
+  ],
+  "liabilities": [
+    {
+      "label": "Primary mortgage",
+      "liability_type": "mortgage_first",
+      "balance": 480000,
+      "monthly_payment": 3100,
+      "interest_rate": 0.058
+    }
+  ],
+  "future_assets": [],
+  "annuities": [],
+  "pensions": [],
+  "other_income": []
+}

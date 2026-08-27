@@ -1,0 +1,122 @@
+{
+  "description": "Transition Phase \u2014 Single \u2014 Well Funded",
+  "investor_name": "Thomas Nakamura",
+  "investor_dob": "01/01/1968",
+  "investor_age": 58,
+  "investor_gender": "male",
+  "has_co_investor": false,
+  "co_investor_name": null,
+  "co_investor_dob": null,
+  "co_investor_age": null,
+  "co_investor_gender": null,
+  "effective_income_tax_rate": 0.28,
+  "long_term_gains_rate": 0.15,
+  "portfolio_assets": [
+    {
+      "label": "Fidelity 401(k)",
+      "account_type": "401k",
+      "present_value": 980000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Rollover IRA",
+      "account_type": "traditional_ira",
+      "present_value": 420000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Roth IRA",
+      "account_type": "roth_ira",
+      "present_value": 185000,
+      "cost_basis": 95000
+    },
+    {
+      "label": "Taxable brokerage",
+      "account_type": "taxable",
+      "present_value": 310000,
+      "cost_basis": 175000
+    }
+  ],
+  "spending_goals": [
+    {
+      "label": "Core living expenses",
+      "grouping": "essential",
+      "annual_amount": 95000,
+      "annual_adjustment": 0.024,
+      "start_age": 63,
+      "end_age": 92
+    },
+    {
+      "label": "Healthcare \u2014 pre-Medicare",
+      "grouping": "healthcare",
+      "annual_amount": 24000,
+      "annual_adjustment": 0.035,
+      "start_age": 63,
+      "end_age": 65
+    },
+    {
+      "label": "Healthcare \u2014 Medicare",
+      "grouping": "healthcare",
+      "annual_amount": 14000,
+      "annual_adjustment": 0.035,
+      "start_age": 65,
+      "end_age": 92
+    },
+    {
+      "label": "Travel & hobbies",
+      "grouping": "discretionary",
+      "annual_amount": 18000,
+      "annual_adjustment": 0.0,
+      "start_age": 63,
+      "end_age": 80
+    }
+  ],
+  "social_security": [
+    {
+      "label": "Social Security (investor)",
+      "owner": "investor",
+      "annual_amount": 38000,
+      "annual_adjustment": 0.023,
+      "start_age": 67
+    }
+  ],
+  "retirement_income": [
+    {
+      "label": "Deferred comp payout",
+      "income_type": "deferred_comp_now",
+      "owner": "investor",
+      "annual_amount": 42000,
+      "annual_adjustment": 0.0,
+      "start_age": 63,
+      "end_age": 68,
+      "survivorship": false,
+      "survivorship_percentage": 0.0
+    }
+  ],
+  "future_savings": [
+    {
+      "label": "401(k) catch-up",
+      "savings_type": "pre-tax",
+      "owner": "investor",
+      "annual_contribution": 30500,
+      "annual_adjustment": 0.0,
+      "start_age": 58,
+      "end_age": 63
+    }
+  ],
+  "private_assets": [
+    {
+      "label": "Primary residence",
+      "asset_type": "home",
+      "value": 960000,
+      "cost_basis": 380000,
+      "debt_owed": 0,
+      "tax_rate": 0.15
+    }
+  ],
+  "liabilities": [],
+  "future_assets": [],
+  "annuities": [],
+  "pensions": [],
+  "other_income": []
+}

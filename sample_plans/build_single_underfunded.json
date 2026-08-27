@@ -1,0 +1,127 @@
+{
+  "description": "Build Phase \u2014 Single \u2014 Underfunded",
+  "investor_name": "Marcus Webb",
+  "investor_dob": "01/01/1986",
+  "investor_age": 40,
+  "investor_gender": "male",
+  "has_co_investor": false,
+  "co_investor_name": null,
+  "co_investor_dob": null,
+  "co_investor_age": null,
+  "co_investor_gender": null,
+  "effective_income_tax_rate": 0.28,
+  "long_term_gains_rate": 0.15,
+  "portfolio_assets": [
+    {
+      "label": "Marcus 401(k)",
+      "account_type": "401k",
+      "present_value": 68000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Roth IRA",
+      "account_type": "roth_ira",
+      "present_value": 18000,
+      "cost_basis": 14000
+    },
+    {
+      "label": "Checking / savings",
+      "account_type": "taxable",
+      "present_value": 22000,
+      "cost_basis": 22000
+    }
+  ],
+  "spending_goals": [
+    {
+      "label": "Core living expenses",
+      "grouping": "essential",
+      "annual_amount": 88000,
+      "annual_adjustment": 0.024,
+      "start_age": 65,
+      "end_age": 95
+    },
+    {
+      "label": "Healthcare",
+      "grouping": "healthcare",
+      "annual_amount": 12000,
+      "annual_adjustment": 0.035,
+      "start_age": 65,
+      "end_age": 95
+    },
+    {
+      "label": "Travel",
+      "grouping": "discretionary",
+      "annual_amount": 8000,
+      "annual_adjustment": 0.0,
+      "start_age": 65,
+      "end_age": 80
+    }
+  ],
+  "social_security": [
+    {
+      "label": "Social Security (investor)",
+      "owner": "investor",
+      "annual_amount": 26000,
+      "annual_adjustment": 0.023,
+      "start_age": 67
+    }
+  ],
+  "retirement_income": [],
+  "future_savings": [
+    {
+      "label": "401(k) contributions",
+      "savings_type": "pre-tax",
+      "owner": "investor",
+      "annual_contribution": 12000,
+      "annual_adjustment": 0.0,
+      "start_age": 40,
+      "end_age": 65
+    },
+    {
+      "label": "Roth IRA contributions",
+      "savings_type": "roth",
+      "owner": "investor",
+      "annual_contribution": 7000,
+      "annual_adjustment": 0.0,
+      "start_age": 40,
+      "end_age": 65
+    }
+  ],
+  "private_assets": [
+    {
+      "label": "Primary residence",
+      "asset_type": "home",
+      "value": 380000,
+      "cost_basis": 180000,
+      "debt_owed": 295000,
+      "tax_rate": 0.15
+    }
+  ],
+  "liabilities": [
+    {
+      "label": "Primary mortgage",
+      "liability_type": "mortgage_first",
+      "balance": 295000,
+      "monthly_payment": 1850,
+      "interest_rate": 0.063
+    },
+    {
+      "label": "Car loan",
+      "liability_type": "auto_loan",
+      "balance": 18000,
+      "monthly_payment": 420,
+      "interest_rate": 0.072
+    },
+    {
+      "label": "Credit cards",
+      "liability_type": "credit_card",
+      "balance": 12000,
+      "monthly_payment": 380,
+      "interest_rate": 0.219
+    }
+  ],
+  "future_assets": [],
+  "annuities": [],
+  "pensions": [],
+  "other_income": []
+}

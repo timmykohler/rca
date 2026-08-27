@@ -1,0 +1,193 @@
+{
+  "description": "Transition Phase \u2014 Couple \u2014 Overfunded",
+  "investor_name": "William Foster",
+  "investor_dob": "01/01/1967",
+  "investor_age": 59,
+  "investor_gender": "male",
+  "has_co_investor": true,
+  "co_investor_name": "Elizabeth Foster",
+  "co_investor_dob": "01/01/1969",
+  "co_investor_age": 57,
+  "co_investor_gender": "female",
+  "effective_income_tax_rate": 0.37,
+  "long_term_gains_rate": 0.2,
+  "portfolio_assets": [
+    {
+      "label": "William 401(k)",
+      "account_type": "401k",
+      "present_value": 3200000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Elizabeth 401(k)",
+      "account_type": "401k",
+      "present_value": 2100000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Joint taxable \u2014 primary",
+      "account_type": "taxable",
+      "present_value": 2400000,
+      "cost_basis": 980000
+    },
+    {
+      "label": "William Roth IRA",
+      "account_type": "roth_ira",
+      "present_value": 580000,
+      "cost_basis": 240000
+    },
+    {
+      "label": "Elizabeth Roth IRA",
+      "account_type": "roth_ira",
+      "present_value": 420000,
+      "cost_basis": 180000
+    },
+    {
+      "label": "Cash value life",
+      "account_type": "cash_value_life",
+      "present_value": 280000,
+      "cost_basis": 0
+    }
+  ],
+  "spending_goals": [
+    {
+      "label": "Core living expenses",
+      "grouping": "essential",
+      "annual_amount": 180000,
+      "annual_adjustment": 0.024,
+      "start_age": 64,
+      "end_age": 90
+    },
+    {
+      "label": "Survivor expenses",
+      "grouping": "essential",
+      "annual_amount": 120000,
+      "annual_adjustment": 0.024,
+      "start_age": 90,
+      "end_age": 96
+    },
+    {
+      "label": "Healthcare",
+      "grouping": "healthcare",
+      "annual_amount": 24000,
+      "annual_adjustment": 0.035,
+      "start_age": 64,
+      "end_age": 93
+    },
+    {
+      "label": "Travel & lifestyle",
+      "grouping": "discretionary",
+      "annual_amount": 55000,
+      "annual_adjustment": 0.0,
+      "start_age": 64,
+      "end_age": 80
+    },
+    {
+      "label": "Charitable giving",
+      "grouping": "discretionary",
+      "annual_amount": 40000,
+      "annual_adjustment": 0.0,
+      "start_age": 64,
+      "end_age": 82
+    },
+    {
+      "label": "Legacy gifts to children",
+      "grouping": "discretionary",
+      "annual_amount": 80000,
+      "annual_adjustment": 0.0,
+      "start_age": 65,
+      "end_age": 75
+    }
+  ],
+  "social_security": [
+    {
+      "label": "Social Security \u2014 William",
+      "owner": "investor",
+      "annual_amount": 52000,
+      "annual_adjustment": 0.023,
+      "start_age": 70
+    },
+    {
+      "label": "Social Security \u2014 Elizabeth",
+      "owner": "co-investor",
+      "annual_amount": 44000,
+      "annual_adjustment": 0.023,
+      "start_age": 70
+    }
+  ],
+  "retirement_income": [
+    {
+      "label": "William pension",
+      "income_type": "pension",
+      "owner": "investor",
+      "annual_amount": 85000,
+      "annual_adjustment": 0.02,
+      "start_age": 64,
+      "end_age": null,
+      "survivorship": true,
+      "survivorship_percentage": 0.6
+    },
+    {
+      "label": "Elizabeth pension",
+      "income_type": "pension",
+      "owner": "co-investor",
+      "annual_amount": 55000,
+      "annual_adjustment": 0.01,
+      "start_age": 62,
+      "end_age": null,
+      "survivorship": true,
+      "survivorship_percentage": 0.5
+    }
+  ],
+  "future_savings": [
+    {
+      "label": "William 401(k) catch-up",
+      "savings_type": "pre-tax",
+      "owner": "investor",
+      "annual_contribution": 30500,
+      "annual_adjustment": 0.0,
+      "start_age": 59,
+      "end_age": 64
+    },
+    {
+      "label": "Elizabeth 401(k) catch-up",
+      "savings_type": "pre-tax",
+      "owner": "co-investor",
+      "annual_contribution": 30500,
+      "annual_adjustment": 0.0,
+      "start_age": 57,
+      "end_age": 62
+    }
+  ],
+  "private_assets": [
+    {
+      "label": "Primary residence",
+      "asset_type": "home",
+      "value": 3800000,
+      "cost_basis": 1200000,
+      "debt_owed": 0,
+      "tax_rate": 0.15
+    },
+    {
+      "label": "Vacation home",
+      "asset_type": "real_estate",
+      "value": 1600000,
+      "cost_basis": 600000,
+      "debt_owed": 0,
+      "tax_rate": 0.15
+    },
+    {
+      "label": "Business \u2014 minority stake",
+      "asset_type": "business",
+      "value": 1800000,
+      "cost_basis": 400000,
+      "debt_owed": 0,
+      "tax_rate": 0.2
+    }
+  ],
+  "liabilities": [],
+  "future_assets": [],
+  "annuities": [],
+  "pensions": [],
+  "other_income": []
+}

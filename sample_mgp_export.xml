@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Sample MoneyGuidePro XML Export — Real Household Schema
+  Client: John & Jane Smith
+  Use this file to test the MGP XML import feature in the RCA Tool.
+
+  Matches the actual MGP export format (Household root, Participant nodes,
+  InvestmentAssets, GoalPlan/GoalDetails structure, monthly expense amounts).
+
+  To import: click "Import from MGP" tab → drag this file → review → Evaluate Plan
+-->
+<Household Key="SAMPLE0001" HasBypassTrust="false">
+
+  <FASupplementIds />
+
+  <Participants MaritalStatus="2">
+    <Participant ParticipantID="1" SkipUpdate="false">
+      <FirstName>John</FirstName>
+      <LastName>Smith</LastName>
+      <DOB>06/15/1959</DOB>
+      <Sex>1</Sex>
+      <State>CA</State>
+      <EmploymentStatus>5</EmploymentStatus>
+      <EmploymentIncome>0.0000</EmploymentIncome>
+    </Participant>
+    <Participant ParticipantID="2" SkipUpdate="false">
+      <FirstName>Jane</FirstName>
+      <LastName>Smith</LastName>
+      <DOB>03/22/1961</DOB>
+      <Sex>2</Sex>
+      <State>CA</State>
+      <EmploymentStatus>2</EmploymentStatus>
+      <EmploymentIncome>65000.0000</EmploymentIncome>
+    </Participant>
+  </Participants>
+
+  <Trusts />
+  <Dependents />
+
+  <Assets>
+    <InvestmentAssets>
+
+      <InvestmentAsset>
+        <Description>Schwab Brokerage Account</Description>
+        <Type>TMGT</Type>
+        <Owner>3</Owner>
+        <CurrentValue>850000</CurrentValue>
+        <CostBasis>520000</CostBasis>
+      </InvestmentAsset>
+
+      <InvestmentAsset>
+        <Description>Fidelity Rollover IRA — John</Description>
+        <Type>ROLLIRA</Type>
+        <Owner>1</Owner>
+        <CurrentValue>1200000</CurrentValue>
+        <CostBasis>0</CostBasis>
+      </InvestmentAsset>
+
+      <InvestmentAsset>
+        <Description>Vanguard Roth IRA — John</Description>
+        <Type>RIRA</Type>
+        <Owner>1</Owner>
+        <CurrentValue>180000</CurrentValue>
+        <CostBasis>95000</CostBasis>
+      </InvestmentAsset>
+
+      <InvestmentAsset>
+        <Description>Jane 401(k) — Fidelity</Description>
+        <Type>401K</Type>
+        <Owner>2</Owner>
+        <CurrentValue>320000</CurrentValue>
+        <CostBasis>0</CostBasis>
+      </InvestmentAsset>
+
+    </InvestmentAssets>
+    <OtherAssets />
+    <StockOptions />
+  </Assets>
+
+  <Incomes />
+  <Liabilities />
+
+  <GoalPlans>
+    <GoalPlan>
+      <PlanType>1</PlanType>
+      <Description>Smith Family Retirement Plan 2025</Description>
+      <DateCreated>3/1/2025 9:00:00 AM</DateCreated>
+      <DateUpdated>3/1/2025 9:00:00 AM</DateUpdated>
+
+      <GoalDetails>
+
+        <!-- Primary retirement living expense — stored as monthly, both-alive phase -->
+        <RetirementGoal>
+          <Description>Retirement - Basic Living Expense</Description>
+          <TypeId>RETIREMENT</TypeId>
+          <ClientRetiringAge>65</ClientRetiringAge>
+          <SpouseRetiringAge>63</SpouseRetiringAge>
+          <StartYr>2024</StartYr>
+          <EndYr>2061</EndYr>
+          <ExpenseBuckets>
+            <ExpenseBucket>
+              <Id>1</Id>
+              <Description>BothRetired</Description>
+              <Amount>6667.0000</Amount>
+              <Frequency>PerMonth</Frequency>
+              <StartYear>2024</StartYear>
+              <EndYear>2049</EndYear>
+            </ExpenseBucket>
+            <ExpenseBucket>
+              <Id>5</Id>
+              <Description>ClientDeadCoClientRetired</Description>
+              <Amount>5000.0000</Amount>
+              <Frequency>PerMonth</Frequency>
+              <StartYear>2050</StartYear>
+              <EndYear>2061</EndYear>
+            </ExpenseBucket>
+          </ExpenseBuckets>
+        </RetirementGoal>
+
+        <!-- Discretionary and healthcare goals -->
+        <GoalsOther>
+
+          <GoalOther>
+            <Description>Health Care</Description>
+            <TypeId>HEALTHCARE</TypeId>
+            <StartYear>2024</StartYear>
+            <ExpenseAmount>18000.0000</ExpenseAmount>
+            <EndYr>2061</EndYr>
+            <IsRecurring>true</IsRecurring>
+            <Occurences>0</Occurences>
+            <YrsBetweenOccurences>1</YrsBetweenOccurences>
+            <Importance>10</Importance>
+            <InflationModifier>0</InflationModifier>
+            <GoalKind>Other</GoalKind>
+            <InflationAssumptionKind>None</InflationAssumptionKind>
+          </GoalOther>
+
+          <GoalOther>
+            <Description>Travel and Leisure</Description>
+            <TypeId>TRAVEL</TypeId>
+            <StartYear>2024</StartYear>
+            <ExpenseAmount>20000.0000</ExpenseAmount>
+            <EndYr>2044</EndYr>
+            <IsRecurring>true</IsRecurring>
+            <Occurences>0</Occurences>
+            <YrsBetweenOccurences>1</YrsBetweenOccurences>
+            <Importance>7</Importance>
+            <InflationModifier>0</InflationModifier>
+            <GoalKind>Other</GoalKind>
+            <InflationAssumptionKind>None</InflationAssumptionKind>
+          </GoalOther>
+
+          <GoalOther>
+            <Description>Home Improvement</Description>
+            <TypeId>HOMEIMPR</TypeId>
+            <StartYear>2026</StartYear>
+            <ExpenseAmount>45000.0000</ExpenseAmount>
+            <EndYr>2026</EndYr>
+            <IsRecurring>false</IsRecurring>
+            <Occurences>0</Occurences>
+            <YrsBetweenOccurences>1</YrsBetweenOccurences>
+            <Importance>5</Importance>
+            <InflationModifier>0</InflationModifier>
+            <GoalKind>Other</GoalKind>
+            <InflationAssumptionKind>None</InflationAssumptionKind>
+          </GoalOther>
+
+        </GoalsOther>
+
+      </GoalDetails>
+
+      <!-- Social Security — inside GoalPlan/Incomes -->
+      <Incomes>
+        <SocialSecurityBenefit>
+          <Owner>1</Owner>
+          <Benefit>28000</Benefit>
+          <StartYear>2026</StartYear>
+          <COLA>0.023</COLA>
+        </SocialSecurityBenefit>
+        <SocialSecurityBenefit>
+          <Owner>2</Owner>
+          <Benefit>18000</Benefit>
+          <StartYear>2028</StartYear>
+          <COLA>0.023</COLA>
+        </SocialSecurityBenefit>
+        <Pension>
+          <Owner>1</Owner>
+          <Description>City of LA Pension</Description>
+          <Amount>24000</Amount>
+          <StartYear>2024</StartYear>
+          <SurvivorBenefit>0.50</SurvivorBenefit>
+        </Pension>
+      </Incomes>
+
+      <CurrentAllocation>
+        <TotalValue>2550000</TotalValue>
+        <BaseInflationRate>0.024</BaseInflationRate>
+        <TotalReturn>0.0807</TotalReturn>
+        <RealReturn>0.0567</RealReturn>
+      </CurrentAllocation>
+
+    </GoalPlan>
+  </GoalPlans>
+
+</Household>

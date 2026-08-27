@@ -1,0 +1,131 @@
+{
+  "description": "Distribute Phase \u2014 Single \u2014 Overfunded",
+  "investor_name": "Margaret Sullivan",
+  "investor_dob": "01/01/1956",
+  "investor_age": 70,
+  "investor_gender": "female",
+  "has_co_investor": false,
+  "co_investor_name": null,
+  "co_investor_dob": null,
+  "co_investor_age": null,
+  "co_investor_gender": null,
+  "effective_income_tax_rate": 0.32,
+  "long_term_gains_rate": 0.2,
+  "portfolio_assets": [
+    {
+      "label": "Schwab Rollover IRA",
+      "account_type": "traditional_ira",
+      "present_value": 3200000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Roth IRA",
+      "account_type": "roth_ira",
+      "present_value": 680000,
+      "cost_basis": 240000
+    },
+    {
+      "label": "Taxable brokerage",
+      "account_type": "taxable",
+      "present_value": 1800000,
+      "cost_basis": 650000
+    },
+    {
+      "label": "Cash value life",
+      "account_type": "cash_value_life",
+      "present_value": 320000,
+      "cost_basis": 0
+    }
+  ],
+  "spending_goals": [
+    {
+      "label": "Core living expenses",
+      "grouping": "essential",
+      "annual_amount": 120000,
+      "annual_adjustment": 0.024,
+      "start_age": 70,
+      "end_age": 95
+    },
+    {
+      "label": "Healthcare",
+      "grouping": "healthcare",
+      "annual_amount": 18000,
+      "annual_adjustment": 0.035,
+      "start_age": 70,
+      "end_age": 95
+    },
+    {
+      "label": "Travel & lifestyle",
+      "grouping": "discretionary",
+      "annual_amount": 35000,
+      "annual_adjustment": 0.0,
+      "start_age": 70,
+      "end_age": 85
+    },
+    {
+      "label": "Charitable giving",
+      "grouping": "discretionary",
+      "annual_amount": 40000,
+      "annual_adjustment": 0.0,
+      "start_age": 70,
+      "end_age": 85
+    }
+  ],
+  "social_security": [
+    {
+      "label": "Social Security \u2014 Margaret",
+      "owner": "investor",
+      "annual_amount": 46000,
+      "annual_adjustment": 0.023,
+      "start_age": 70
+    }
+  ],
+  "retirement_income": [
+    {
+      "label": "Pension \u2014 corporate",
+      "income_type": "pension",
+      "owner": "investor",
+      "annual_amount": 72000,
+      "annual_adjustment": 0.02,
+      "start_age": 70,
+      "end_age": null,
+      "survivorship": false,
+      "survivorship_percentage": 0.0
+    },
+    {
+      "label": "Rental income \u2014 duplex",
+      "income_type": "rental",
+      "owner": "investor",
+      "annual_amount": 24000,
+      "annual_adjustment": 0.02,
+      "start_age": 70,
+      "end_age": 85,
+      "survivorship": false,
+      "survivorship_percentage": 0.0
+    }
+  ],
+  "future_savings": [],
+  "private_assets": [
+    {
+      "label": "Primary residence",
+      "asset_type": "home",
+      "value": 1800000,
+      "cost_basis": 400000,
+      "debt_owed": 0,
+      "tax_rate": 0.15
+    },
+    {
+      "label": "Rental property",
+      "asset_type": "real_estate",
+      "value": 680000,
+      "cost_basis": 200000,
+      "debt_owed": 0,
+      "tax_rate": 0.15
+    }
+  ],
+  "liabilities": [],
+  "future_assets": [],
+  "annuities": [],
+  "pensions": [],
+  "other_income": []
+}

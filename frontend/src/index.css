@@ -1,0 +1,187 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-neutral-50 text-neutral-600 font-sans;
+    -webkit-font-smoothing: antialiased;
+  }
+}
+
+@layer components {
+  .input-field {
+    @apply w-full rounded-md border border-neutral-300 bg-white px-3 py-2 text-sm text-neutral-800
+           placeholder-neutral-400 shadow-sm transition
+           focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500;
+  }
+
+  .input-field-sm {
+    @apply rounded border border-neutral-300 bg-white px-2 py-1.5 text-sm text-neutral-800
+           placeholder-neutral-400 shadow-sm transition
+           focus:border-brand-500 focus:outline-none focus:ring-1 focus:ring-brand-500;
+  }
+
+  /* Numeric spinners eat 16-20px of width inside the narrow table columns,
+     squeezing short fields (Surv %, Adj %, Age) down to a couple of visible
+     characters. These fields are typed, not stepped — hide the spinners and
+     give the value the full width. */
+  .no-spinner::-webkit-outer-spin-button,
+  .no-spinner::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  .no-spinner {
+    -moz-appearance: textfield;
+    appearance: textfield;
+  }
+
+  .select-field {
+    @apply input-field appearance-none cursor-pointer;
+  }
+
+  .btn-primary {
+    @apply inline-flex items-center gap-2 rounded-md bg-brand-500 px-4 py-2 text-sm font-medium text-white
+           shadow-sm transition hover:bg-brand-600 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-1
+           disabled:opacity-50 disabled:cursor-not-allowed;
+  }
+
+  .btn-secondary {
+    @apply inline-flex items-center gap-2 rounded-md border border-neutral-300 bg-white px-4 py-2
+           text-sm font-medium text-neutral-700 shadow-sm transition
+           hover:bg-neutral-50 focus:outline-none focus:ring-2 focus:ring-brand-500 focus:ring-offset-1;
+  }
+
+  .btn-gold {
+    @apply inline-flex items-center gap-2 rounded-md bg-gold-500 px-4 py-2 text-sm font-semibold text-brand-900
+           shadow-sm transition hover:bg-gold-400 focus:outline-none focus:ring-2 focus:ring-gold-500 focus:ring-offset-1;
+  }
+
+  .btn-danger {
+    @apply inline-flex items-center gap-1.5 rounded border border-red-200 bg-red-50 px-2 py-1
+           text-xs font-medium text-red-600 transition hover:bg-red-100;
+  }
+
+  .section-card {
+    @apply rounded-xl border border-neutral-200 bg-white shadow-sm;
+  }
+
+  .section-header {
+    @apply flex items-center justify-between px-5 py-3.5 border-b border-neutral-100;
+  }
+
+  .section-title {
+    @apply text-sm font-semibold text-brand-700 flex items-center gap-2;
+  }
+
+  .label {
+    @apply block text-xs font-medium text-neutral-600 mb-1;
+  }
+
+  .metric-card {
+    @apply rounded-lg border border-neutral-200 bg-white p-4 text-center shadow-sm;
+  }
+
+  .badge {
+    @apply inline-flex items-center rounded-full px-2.5 py-0.5 text-xs font-medium;
+  }
+
+  .badge-green  { @apply badge bg-emerald-50 text-emerald-700 border border-emerald-200; }
+  .badge-amber  { @apply badge bg-amber-50 text-amber-700 border border-amber-200; }
+  .badge-red    { @apply badge bg-red-50 text-red-700 border border-red-200; }
+  .badge-blue   { @apply badge bg-steel-50 text-steel-700 border border-steel-200; }
+}
+
+/* ── Print styles ─────────────────────────────────────────────────────────── */
+@media print {
+  @page {
+    margin: 0.75in;
+    size: letter portrait;
+  }
+
+  body {
+    background: white !important;
+    font-size: 11pt;
+    color: #808183;
+  }
+
+  header,
+  .print\:hidden,
+  button,
+  .btn-primary,
+  .btn-secondary,
+  .btn-gold,
+  nav {
+    display: none !important;
+  }
+
+  main {
+    padding: 0 !important;
+    max-width: 100% !important;
+  }
+
+  .section-card {
+    border: 1px solid #e4e4e5 !important;
+    box-shadow: none !important;
+    break-inside: avoid;
+    margin-bottom: 16pt;
+  }
+
+  .grid.grid-cols-2.md\:grid-cols-4 {
+    grid-template-columns: repeat(2, 1fr) !important;
+  }
+
+  .recharts-wrapper,
+  canvas {
+    break-inside: avoid;
+  }
+
+  .section-header {
+    break-after: avoid;
+  }
+
+  body::before {
+    content: "Resources Claims Analysis";
+    display: block;
+    font-family: Georgia, serif;
+    font-size: 9pt;
+    color: #939598;
+    letter-spacing: 0.1em;
+    border-bottom: 1pt solid #CAB688;
+    padding-bottom: 6pt;
+    margin-bottom: 18pt;
+  }
+
+  body::after {
+    content: "For internal use only. Based on Pittman (2015), The Journal of Retirement.";
+    display: block;
+    font-size: 8pt;
+    color: #939598;
+    border-top: 0.5pt solid #e4e4e5;
+    padding-top: 6pt;
+    margin-top: 24pt;
+    position: fixed;
+    bottom: 0.5in;
+    left: 0.75in;
+    right: 0.75in;
+  }
+
+  table {
+    font-size: 9pt;
+  }
+
+  .badge {
+    border: 1px solid currentColor !important;
+    background: transparent !important;
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+
+  .bg-emerald-50,
+  .bg-amber-50,
+  .bg-red-50,
+  .bg-neutral-50 {
+    print-color-adjust: exact;
+    -webkit-print-color-adjust: exact;
+  }
+}

@@ -1,0 +1,135 @@
+{
+  "description": "Build Phase \u2014 Couple \u2014 Underfunded",
+  "investor_name": "Darnell Thomas",
+  "investor_dob": "01/01/1983",
+  "investor_age": 43,
+  "investor_gender": "male",
+  "has_co_investor": true,
+  "co_investor_name": "Keisha Thomas",
+  "co_investor_dob": "01/01/1985",
+  "co_investor_age": 41,
+  "co_investor_gender": "female",
+  "effective_income_tax_rate": 0.24,
+  "long_term_gains_rate": 0.15,
+  "portfolio_assets": [
+    {
+      "label": "Darnell 401(k)",
+      "account_type": "401k",
+      "present_value": 55000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Keisha 403(b)",
+      "account_type": "403b",
+      "present_value": 42000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Joint savings",
+      "account_type": "taxable",
+      "present_value": 18000,
+      "cost_basis": 18000
+    }
+  ],
+  "spending_goals": [
+    {
+      "label": "Core living expenses",
+      "grouping": "essential",
+      "annual_amount": 95000,
+      "annual_adjustment": 0.024,
+      "start_age": 65,
+      "end_age": 92
+    },
+    {
+      "label": "Survivor expenses",
+      "grouping": "essential",
+      "annual_amount": 65000,
+      "annual_adjustment": 0.024,
+      "start_age": 92,
+      "end_age": 98
+    },
+    {
+      "label": "Healthcare",
+      "grouping": "healthcare",
+      "annual_amount": 18000,
+      "annual_adjustment": 0.035,
+      "start_age": 65,
+      "end_age": 95
+    },
+    {
+      "label": "Kids college fund goals",
+      "grouping": "discretionary",
+      "annual_amount": 30000,
+      "annual_adjustment": 0.0,
+      "start_age": 45,
+      "end_age": 52
+    }
+  ],
+  "social_security": [
+    {
+      "label": "Social Security \u2014 Darnell",
+      "owner": "investor",
+      "annual_amount": 28000,
+      "annual_adjustment": 0.023,
+      "start_age": 67
+    },
+    {
+      "label": "Social Security \u2014 Keisha",
+      "owner": "co-investor",
+      "annual_amount": 22000,
+      "annual_adjustment": 0.023,
+      "start_age": 67
+    }
+  ],
+  "retirement_income": [],
+  "future_savings": [
+    {
+      "label": "Darnell 401(k)",
+      "savings_type": "pre-tax",
+      "owner": "investor",
+      "annual_contribution": 10000,
+      "annual_adjustment": 0.0,
+      "start_age": 43,
+      "end_age": 65
+    },
+    {
+      "label": "Keisha 403(b)",
+      "savings_type": "pre-tax",
+      "owner": "co-investor",
+      "annual_contribution": 8000,
+      "annual_adjustment": 0.0,
+      "start_age": 41,
+      "end_age": 63
+    }
+  ],
+  "private_assets": [
+    {
+      "label": "Primary residence",
+      "asset_type": "home",
+      "value": 420000,
+      "cost_basis": 150000,
+      "debt_owed": 310000,
+      "tax_rate": 0.15
+    }
+  ],
+  "liabilities": [
+    {
+      "label": "Primary mortgage",
+      "liability_type": "mortgage_first",
+      "balance": 310000,
+      "monthly_payment": 2100,
+      "interest_rate": 0.068
+    },
+    {
+      "label": "Car loans",
+      "liability_type": "auto_loan",
+      "balance": 28000,
+      "monthly_payment": 680,
+      "interest_rate": 0.079
+    }
+  ],
+  "future_assets": [],
+  "annuities": [],
+  "pensions": [],
+  "other_income": []
+}

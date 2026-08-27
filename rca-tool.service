@@ -1,0 +1,16 @@
+[Unit]
+Description=RCA Tool — Resources Claims Analysis
+After=network.target
+
+[Service]
+Type=simple
+User=youruser
+WorkingDirectory=/opt/rca-tool/backend
+ExecStart=/opt/rca-tool/backend/venv/bin/uvicorn main:app --host 0.0.0.0 --port 8000
+Restart=always
+RestartSec=5
+Environment=PYTHONUNBUFFERED=1
+EnvironmentFile=/etc/rca-tool/env
+
+[Install]
+WantedBy=multi-user.target

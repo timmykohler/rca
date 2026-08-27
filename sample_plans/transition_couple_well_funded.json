@@ -1,0 +1,160 @@
+{
+  "description": "Transition Phase \u2014 Couple \u2014 Well Funded",
+  "investor_name": "David Kim",
+  "investor_dob": "01/01/1966",
+  "investor_age": 60,
+  "investor_gender": "male",
+  "has_co_investor": true,
+  "co_investor_name": "Jennifer Kim",
+  "co_investor_dob": "01/01/1968",
+  "co_investor_age": 58,
+  "co_investor_gender": "female",
+  "effective_income_tax_rate": 0.32,
+  "long_term_gains_rate": 0.2,
+  "portfolio_assets": [
+    {
+      "label": "David 401(k)",
+      "account_type": "401k",
+      "present_value": 1350000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Jennifer 401(k)",
+      "account_type": "401k",
+      "present_value": 920000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Joint brokerage",
+      "account_type": "taxable",
+      "present_value": 480000,
+      "cost_basis": 250000
+    },
+    {
+      "label": "David Roth IRA",
+      "account_type": "roth_ira",
+      "present_value": 220000,
+      "cost_basis": 110000
+    },
+    {
+      "label": "Jennifer Roth IRA",
+      "account_type": "roth_ira",
+      "present_value": 165000,
+      "cost_basis": 85000
+    }
+  ],
+  "spending_goals": [
+    {
+      "label": "Core living expenses",
+      "grouping": "essential",
+      "annual_amount": 130000,
+      "annual_adjustment": 0.024,
+      "start_age": 65,
+      "end_age": 90
+    },
+    {
+      "label": "Survivor expenses",
+      "grouping": "essential",
+      "annual_amount": 88000,
+      "annual_adjustment": 0.024,
+      "start_age": 90,
+      "end_age": 96
+    },
+    {
+      "label": "Healthcare \u2014 bridge",
+      "grouping": "healthcare",
+      "annual_amount": 32000,
+      "annual_adjustment": 0.035,
+      "start_age": 63,
+      "end_age": 65
+    },
+    {
+      "label": "Healthcare \u2014 Medicare",
+      "grouping": "healthcare",
+      "annual_amount": 22000,
+      "annual_adjustment": 0.035,
+      "start_age": 65,
+      "end_age": 93
+    },
+    {
+      "label": "Travel & leisure",
+      "grouping": "discretionary",
+      "annual_amount": 28000,
+      "annual_adjustment": 0.0,
+      "start_age": 63,
+      "end_age": 80
+    },
+    {
+      "label": "Home renovation",
+      "grouping": "housing",
+      "annual_amount": 65000,
+      "annual_adjustment": 0.0,
+      "start_age": 62,
+      "end_age": 62
+    }
+  ],
+  "social_security": [
+    {
+      "label": "Social Security \u2014 David",
+      "owner": "investor",
+      "annual_amount": 44000,
+      "annual_adjustment": 0.023,
+      "start_age": 67
+    },
+    {
+      "label": "Social Security \u2014 Jennifer",
+      "owner": "co-investor",
+      "annual_amount": 36000,
+      "annual_adjustment": 0.023,
+      "start_age": 67
+    }
+  ],
+  "retirement_income": [
+    {
+      "label": "David pension",
+      "income_type": "pension",
+      "owner": "investor",
+      "annual_amount": 48000,
+      "annual_adjustment": 0.0,
+      "start_age": 65,
+      "end_age": null,
+      "survivorship": true,
+      "survivorship_percentage": 0.5
+    }
+  ],
+  "future_savings": [
+    {
+      "label": "David 401(k) catch-up",
+      "savings_type": "pre-tax",
+      "owner": "investor",
+      "annual_contribution": 30500,
+      "annual_adjustment": 0.0,
+      "start_age": 60,
+      "end_age": 65
+    },
+    {
+      "label": "Jennifer 401(k) catch-up",
+      "savings_type": "pre-tax",
+      "owner": "co-investor",
+      "annual_contribution": 30500,
+      "annual_adjustment": 0.0,
+      "start_age": 58,
+      "end_age": 63
+    }
+  ],
+  "private_assets": [
+    {
+      "label": "Primary residence",
+      "asset_type": "home",
+      "value": 1600000,
+      "cost_basis": 550000,
+      "debt_owed": 0,
+      "tax_rate": 0.15
+    }
+  ],
+  "liabilities": [],
+  "future_assets": [],
+  "annuities": [],
+  "pensions": [],
+  "other_income": []
+}

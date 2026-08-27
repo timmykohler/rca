@@ -1,0 +1,144 @@
+{
+  "description": "Build Phase \u2014 Single \u2014 Overfunded",
+  "investor_name": "Jordan Park",
+  "investor_dob": "01/01/1988",
+  "investor_age": 38,
+  "investor_gender": "female",
+  "has_co_investor": false,
+  "co_investor_name": null,
+  "co_investor_dob": null,
+  "co_investor_age": null,
+  "co_investor_gender": null,
+  "effective_income_tax_rate": 0.37,
+  "long_term_gains_rate": 0.2,
+  "portfolio_assets": [
+    {
+      "label": "Vanguard 401(k)",
+      "account_type": "401k",
+      "present_value": 950000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Roth 401(k)",
+      "account_type": "roth_401k",
+      "present_value": 320000,
+      "cost_basis": 200000
+    },
+    {
+      "label": "Taxable brokerage \u2014 primary",
+      "account_type": "taxable",
+      "present_value": 640000,
+      "cost_basis": 310000
+    },
+    {
+      "label": "Taxable brokerage \u2014 alt",
+      "account_type": "taxable",
+      "present_value": 210000,
+      "cost_basis": 160000
+    }
+  ],
+  "spending_goals": [
+    {
+      "label": "Core living expenses",
+      "grouping": "essential",
+      "annual_amount": 85000,
+      "annual_adjustment": 0.024,
+      "start_age": 58,
+      "end_age": 95
+    },
+    {
+      "label": "Healthcare",
+      "grouping": "healthcare",
+      "annual_amount": 12000,
+      "annual_adjustment": 0.035,
+      "start_age": 58,
+      "end_age": 95
+    },
+    {
+      "label": "Travel & experiences",
+      "grouping": "discretionary",
+      "annual_amount": 25000,
+      "annual_adjustment": 0.0,
+      "start_age": 58,
+      "end_age": 78
+    },
+    {
+      "label": "Charitable giving",
+      "grouping": "discretionary",
+      "annual_amount": 20000,
+      "annual_adjustment": 0.0,
+      "start_age": 58,
+      "end_age": 85
+    }
+  ],
+  "social_security": [
+    {
+      "label": "Social Security (investor)",
+      "owner": "investor",
+      "annual_amount": 42000,
+      "annual_adjustment": 0.023,
+      "start_age": 67
+    }
+  ],
+  "retirement_income": [],
+  "future_savings": [
+    {
+      "label": "401(k) max contributions",
+      "savings_type": "pre-tax",
+      "owner": "investor",
+      "annual_contribution": 23000,
+      "annual_adjustment": 0.0,
+      "start_age": 38,
+      "end_age": 58
+    },
+    {
+      "label": "Taxable savings",
+      "savings_type": "taxable",
+      "owner": "investor",
+      "annual_contribution": 60000,
+      "annual_adjustment": 0.0,
+      "start_age": 38,
+      "end_age": 58
+    }
+  ],
+  "private_assets": [
+    {
+      "label": "Primary residence",
+      "asset_type": "home",
+      "value": 1400000,
+      "cost_basis": 600000,
+      "debt_owed": 0,
+      "tax_rate": 0.15
+    },
+    {
+      "label": "Rental property",
+      "asset_type": "real_estate",
+      "value": 620000,
+      "cost_basis": 280000,
+      "debt_owed": 240000,
+      "tax_rate": 0.15
+    }
+  ],
+  "liabilities": [
+    {
+      "label": "Rental mortgage",
+      "liability_type": "mortgage_first",
+      "balance": 240000,
+      "monthly_payment": 1650,
+      "interest_rate": 0.048
+    }
+  ],
+  "future_assets": [
+    {
+      "label": "Expected inheritance",
+      "asset_type": "inheritance",
+      "owner": "investor",
+      "amount": 800000,
+      "expected_age": 55,
+      "tax_rate": 0.0
+    }
+  ],
+  "annuities": [],
+  "pensions": [],
+  "other_income": []
+}

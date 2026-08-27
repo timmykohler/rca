@@ -1,0 +1,84 @@
+{
+  "description": "Distribute Phase \u2014 Single \u2014 Underfunded",
+  "investor_name": "Dorothy Evans",
+  "investor_dob": "01/01/1954",
+  "investor_age": 72,
+  "investor_gender": "female",
+  "has_co_investor": false,
+  "co_investor_name": null,
+  "co_investor_dob": null,
+  "co_investor_age": null,
+  "co_investor_gender": null,
+  "effective_income_tax_rate": 0.22,
+  "long_term_gains_rate": 0.15,
+  "portfolio_assets": [
+    {
+      "label": "Rollover IRA",
+      "account_type": "traditional_ira",
+      "present_value": 285000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Savings account",
+      "account_type": "taxable",
+      "present_value": 22000,
+      "cost_basis": 22000
+    }
+  ],
+  "spending_goals": [
+    {
+      "label": "Core living expenses",
+      "grouping": "essential",
+      "annual_amount": 58000,
+      "annual_adjustment": 0.024,
+      "start_age": 72,
+      "end_age": 95
+    },
+    {
+      "label": "Healthcare \u2014 Medicare supplement",
+      "grouping": "healthcare",
+      "annual_amount": 14000,
+      "annual_adjustment": 0.035,
+      "start_age": 72,
+      "end_age": 95
+    }
+  ],
+  "social_security": [
+    {
+      "label": "Social Security \u2014 Dorothy",
+      "owner": "investor",
+      "annual_amount": 22000,
+      "annual_adjustment": 0.023,
+      "start_age": 72
+    }
+  ],
+  "retirement_income": [
+    {
+      "label": "Part-time work",
+      "income_type": "part_time",
+      "owner": "investor",
+      "annual_amount": 12000,
+      "annual_adjustment": 0.0,
+      "start_age": 72,
+      "end_age": 76,
+      "survivorship": false,
+      "survivorship_percentage": 0.0
+    }
+  ],
+  "future_savings": [],
+  "private_assets": [
+    {
+      "label": "Primary residence",
+      "asset_type": "home",
+      "value": 320000,
+      "cost_basis": 80000,
+      "debt_owed": 0,
+      "tax_rate": 0.15
+    }
+  ],
+  "liabilities": [],
+  "future_assets": [],
+  "annuities": [],
+  "pensions": [],
+  "other_income": []
+}

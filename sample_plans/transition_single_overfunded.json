@@ -1,0 +1,130 @@
+{
+  "description": "Transition Phase \u2014 Single \u2014 Overfunded",
+  "investor_name": "Catherine Walsh",
+  "investor_dob": "01/01/1969",
+  "investor_age": 57,
+  "investor_gender": "female",
+  "has_co_investor": false,
+  "co_investor_name": null,
+  "co_investor_dob": null,
+  "co_investor_age": null,
+  "co_investor_gender": null,
+  "effective_income_tax_rate": 0.37,
+  "long_term_gains_rate": 0.2,
+  "portfolio_assets": [
+    {
+      "label": "Vanguard 401(k)",
+      "account_type": "401k",
+      "present_value": 2800000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Rollover IRA",
+      "account_type": "traditional_ira",
+      "present_value": 1100000,
+      "cost_basis": 0
+    },
+    {
+      "label": "Roth IRA",
+      "account_type": "roth_ira",
+      "present_value": 420000,
+      "cost_basis": 180000
+    },
+    {
+      "label": "Joint taxable",
+      "account_type": "taxable",
+      "present_value": 1650000,
+      "cost_basis": 720000
+    }
+  ],
+  "spending_goals": [
+    {
+      "label": "Core living expenses",
+      "grouping": "essential",
+      "annual_amount": 140000,
+      "annual_adjustment": 0.024,
+      "start_age": 62,
+      "end_age": 92
+    },
+    {
+      "label": "Healthcare",
+      "grouping": "healthcare",
+      "annual_amount": 18000,
+      "annual_adjustment": 0.035,
+      "start_age": 62,
+      "end_age": 92
+    },
+    {
+      "label": "Travel & lifestyle",
+      "grouping": "discretionary",
+      "annual_amount": 40000,
+      "annual_adjustment": 0.0,
+      "start_age": 62,
+      "end_age": 80
+    },
+    {
+      "label": "Charitable giving",
+      "grouping": "discretionary",
+      "annual_amount": 30000,
+      "annual_adjustment": 0.0,
+      "start_age": 62,
+      "end_age": 80
+    }
+  ],
+  "social_security": [
+    {
+      "label": "Social Security (investor)",
+      "owner": "investor",
+      "annual_amount": 48000,
+      "annual_adjustment": 0.023,
+      "start_age": 70
+    }
+  ],
+  "retirement_income": [
+    {
+      "label": "Pension \u2014 employer",
+      "income_type": "pension",
+      "owner": "investor",
+      "annual_amount": 60000,
+      "annual_adjustment": 0.0,
+      "start_age": 62,
+      "end_age": null,
+      "survivorship": true,
+      "survivorship_percentage": 0.0
+    }
+  ],
+  "future_savings": [
+    {
+      "label": "401(k) catch-up",
+      "savings_type": "pre-tax",
+      "owner": "investor",
+      "annual_contribution": 30500,
+      "annual_adjustment": 0.0,
+      "start_age": 57,
+      "end_age": 62
+    }
+  ],
+  "private_assets": [
+    {
+      "label": "Primary residence",
+      "asset_type": "home",
+      "value": 2800000,
+      "cost_basis": 900000,
+      "debt_owed": 0,
+      "tax_rate": 0.15
+    },
+    {
+      "label": "Vacation property",
+      "asset_type": "real_estate",
+      "value": 1100000,
+      "cost_basis": 500000,
+      "debt_owed": 0,
+      "tax_rate": 0.15
+    }
+  ],
+  "liabilities": [],
+  "future_assets": [],
+  "annuities": [],
+  "pensions": [],
+  "other_income": []
+}
